@@ -206,6 +206,7 @@ class LocationSearchModal extends React.Component {
         Status: 2,
         inprogress: true,
       });
+      alert("Success")
   }
   handleDetailChange = (e) => {
     e.preventDefault()
