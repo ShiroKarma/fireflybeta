@@ -9,13 +9,14 @@ import Header from './component/HomePage/Header';
 import { Route,Switch } from 'react-router-dom';
 import Format from './component/Map/Formholder';
 import SendMessage from './component/Map/Map';
+import LocationSearchModal from './component/Map/Map';
 export default function App() {
   return (
     <div>
       <Header />
       <Switch>
         <Route path='/' exact>
-          <LogIn/>
+          <LocationSearchModal/>
         </Route>
         <Route path='/register'>
           <Register/>

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import howTo1 from "./img/howTo1.png";
-import howTo2 from "./img/howTo2.png";
-import howTo3 from "./img/howTo3.png";
+import howTo1 from "./img/howTo1.PNG";
+import howTo2 from "./img/howTo2.PNG";
+import howTo3 from "./img/howTo3.PNG";
 import OnFire from "./img/OnFire.jpg";
 import { Carousel } from "react-bootstrap";
 import { db } from "../../utils/firebase";

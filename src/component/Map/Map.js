@@ -306,7 +306,7 @@ class LocationSearchModal extends React.Component {
           </div>
           <div className="row m-4">
             <Button
-              style={{backgroundColor:'#f59342' ,}}
+              style={{backgroundColor:'#e6a800' ,}}
               form="sendAMessage"
               type="submit"
               className="btn btn-block btn-primary"

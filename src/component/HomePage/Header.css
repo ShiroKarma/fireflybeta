@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 .header{
-    background:rgb(255, 72, 72);
+    background:#fdcb69;
     height:80px;
 
 }
@@ -60,7 +60,7 @@
 
     }
     .menu.active {
-        background:#111;
+        background:#fddd69;
         left:0;
         opacity: 1;
         padding-left: 0;
