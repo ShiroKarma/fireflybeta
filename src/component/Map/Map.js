@@ -10,7 +10,7 @@ import logo from '../../logo.svg'
 const { MarkerWithLabel } = require("react-google-maps/lib/components/addons/MarkerWithLabel");
 
 
-Geocode.setApiKey("AIzaSyAiGVrZQ3gVuPUjz5D4vMPbAdQWXjKPyAc");
+Geocode.setApiKey("AIzaSyDpVUFqR-I_KgFu-vrT9DBXJqZI1O0C_ss");
 Geocode.enableDebug();
 class LocationSearchModal extends React.Component {
  
@@ -270,7 +270,7 @@ class LocationSearchModal extends React.Component {
         <div style={{ padding: '1rem', margin: '0 auto', maxWidth: 1000 }}>
 
           <AsyncMap
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiGVrZQ3gVuPUjz5D4vMPbAdQWXjKPyAc&libraries=places"
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpVUFqR-I_KgFu-vrT9DBXJqZI1O0C_ss&libraries=places"
             loadingElement={
               <div style={{ height: `100%` }} />
             }
