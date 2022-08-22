@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import './ContentCSS.css'
 import logo from '../../logo.svg'
 import { useHistory } from 'react-router-dom';
+import Cookies from 'js-cookie';
 function Register() {
   const navigate = useHistory();
   const [Name, setName] = useState('')
@@ -78,7 +79,7 @@ function Register() {
       setPasssword("");
       setBetapasss("");
       setDiplay("");
-
+      Cookies.set("user","true")
     } else {
       alert('falied to compile')
       alert('Your password did not match')

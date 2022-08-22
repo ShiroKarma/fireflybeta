@@ -1,12 +1,12 @@
-import { Route, Switch, Link , useHistory } from "react-router-dom";
+import { Route, Switch, Link , useHistory, Redirect } from "react-router-dom";
 import { db } from "../utils/firebase";
 import liff from '@line/liff';
 import { useState, useEffect } from "react";
 import { AiFillRead } from "react-icons/ai";
 import logo from '../logo.svg'
 import "./Card.css";
-import Camera from "./camera/camHolder";
 import { Button } from "@material-ui/core";
+import Cookies from "js-cookie";
 function LogIn() {
   const navigate = useHistory()
   const [pictureUrl, setPictureUrl] = useState(logo);
@@ -16,6 +16,7 @@ function LogIn() {
   const [userId, setUserId] = useState("");
   const [Loader, setLoader] = useState(true)
   const [userData,setUserData] = useState([])
+  const [Auth,setAuth] = useState([])
   useEffect(() => {
     GetuserData();
   }, []); // blank to run only on first launch
@@ -52,8 +53,19 @@ function LogIn() {
   useEffect(() => {
     initLine();
   }, []);
- const linKer = ()=>{
-    {window.location.replace("https://fireflynotifybeta.vercel.app")}
+ const readCookies = () => {
+  const StatusCookies = Cookies.get("user")
+  if (StatusCookies){
+    setAuth(true)
+  }
+ }
+ useEffect(()=>{
+  readCookies();
+ }, [])
+ if (Auth== true) {
+ <Redirect to="/camera"></Redirect>
+ } {
+  {window.location.replace("https://fireflynotifybeta.vercel.app")}
  }
   return (
     
