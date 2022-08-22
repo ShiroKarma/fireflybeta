@@ -1,0 +1,11 @@
+.formHolder {
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 1rem
+}
+.Location{
+    margin: 1rem;
+    background-color: #fff;
+    border-color: black;
+    border-width: 5px;
+}
