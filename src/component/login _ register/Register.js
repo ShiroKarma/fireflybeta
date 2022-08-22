@@ -65,7 +65,8 @@ function Register() {
         .then(() => {
           setLoader(false);
           alert("Register Complete");
-          <Link to="/camera"/>
+          navigate.push('/camera')
+
         })
         .catch((error) => {
           alert(error.message);
