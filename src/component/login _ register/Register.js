@@ -4,7 +4,7 @@ import liff from '@line/liff';
 import { useState, useEffect } from 'react';
 import './ContentCSS.css'
 import logo from '../../logo.svg'
-import { useHistory } from 'react-router-dom';
+import { Redirect, useHistory } from 'react-router-dom';
 import Cookies from 'js-cookie';
 function Register() {
   const navigate = useHistory();
@@ -65,7 +65,7 @@ function Register() {
         .then(() => {
           setLoader(false);
           alert("Register Complete");
-          {window.location.replace("https://fireflynotifybeta.vercel.app")}
+          <Redirect to="/camera"/>
         })
         .catch((error) => {
           alert(error.message);
