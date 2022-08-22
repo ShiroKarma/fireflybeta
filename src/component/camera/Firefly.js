@@ -94,7 +94,7 @@ const clearFiles =(e) =>{
   }
   return (
     <div>
-      <div className="row-fluid bg-danger bg-gradient d-flex justify-content-start">
+      <div className="row-fluid bg-warning bg-gradient-light d-flex justify-content-start">
         <div
           className="col-5 text-white"
           style={{ fontSize: "10vw", marginLeft: "4%" }}
@@ -108,7 +108,7 @@ const clearFiles =(e) =>{
           AI CAMERA SYSTEM FOR TIMELY DETECTION OF FIRE
         </div>
       </div>
-      <div className="container-fluid bg-dark pt-2 bg-opacity-75">
+      <div className="container-fluid bg-secondary pt-2 bg-opacity-75">
         <Carousel>
           <Carousel.Item>
             <img src={howTo1} className="img-fluid rounded mx-auto d-block" />
@@ -136,8 +136,8 @@ const clearFiles =(e) =>{
               fontFamily: "RSU",
             }}
           >
-            ระบบกล้องถ่ายรูปเพื่อแจ้งเหตุเพลิงไหม้ให้กับเจ้าหน้าที่
-            เพื่อรักษาความปลอดภัยของชุมชน
+            Camera system to report fires to officers
+            to maintain the safety of the community
           </div>
         </div>
       </div>
@@ -149,12 +149,12 @@ const clearFiles =(e) =>{
           <div
             className="col-12 py-1 text-white"
             style={{
-              backgroundColor: "#EC7063",
+              backgroundColor: "#f5a43b",
               fontFamily: "RSU",
               fontSize: "5vw",
             }}
           >
-            กล้องถ่ายรูปตรวจจับไฟ
+            Fire detection camera
           </div>
           <input
             type="file"
@@ -172,9 +172,10 @@ const clearFiles =(e) =>{
           value={choice}
           onChange={handleOpton}
         >
-          <option value="">สาเหตุการเผาไหม้</option>
-          <option value="การเผาขยะ">การเผาขยะ</option>
-          <option value="การเผาใบไม้">การเผาใบไม้</option>
+            <option value="">Burning cause</option>
+          <option value="การเผาขยะ">Garbage incineration</option>
+          <option value="การเผาใบไม้">Burning leaves</option>
+          <option value="ไฟป่า">Wildfire</option>
         </select>
       </div> 
             <div className="col-4 d-flex justify-content-start">
