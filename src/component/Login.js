@@ -55,7 +55,7 @@ function LogIn() {
   }, []);
  const readCookies = () => {
   const StatusCookies = Cookies.get("user")
-  if (StatusCookies){
+  if (StatusCookies != ""){
     setAuth(true)
   }
  }
@@ -64,7 +64,7 @@ function LogIn() {
  }, [])
  const HandleOnClick =()=>{
 
- if (Auth== true) {
+ if (Auth == true) {
  <Redirect to="/camera"/>
  } {
   {window.location.replace("https://fireflynotifybeta.vercel.app")}
