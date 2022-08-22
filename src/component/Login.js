@@ -64,11 +64,11 @@ function LogIn() {
  }, [])
  const HandleOnClick =()=>{
 console.log(Auth)
-//  if (Auth == true) {
-//  <Redirect to="/camera"/>
-//  } {
-//   {window.location.replace("https://fireflynotifybeta.vercel.app")}
-//  }
+if (Auth == true) {
+<Link to="/camera"/>
+} {
+{window.location.replace("https://fireflynotifybeta.vercel.app")}
+}
 }
   return (
     

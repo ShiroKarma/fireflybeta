@@ -5,7 +5,7 @@ import howTo3 from "./img/howTo3.png";
 import OnFire from "./img/OnFire.jpg";
 import { Carousel } from "react-bootstrap";
 import { db } from "../../utils/firebase";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import liff from '@line/liff'
 export default function Firefly() {
   const [idToken, setIdToken] = useState("");
@@ -79,8 +79,8 @@ const clearFiles =(e) =>{
           Time: Date().toLocaleString()
         })
         .then(()=>{
-          alert('สำเร็จ!!')
-          {window.location.replace("https://fireflybeta.vercel.app/form")}
+          alert('Success!!');
+          <Link to ="/form"/>
        })
        
       } else { alert('กรุณาเลือกประเภทการเผาที่เกิดขึ้น')}
