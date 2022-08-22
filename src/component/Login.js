@@ -62,11 +62,14 @@ function LogIn() {
  useEffect(()=>{
   readCookies();
  }, [])
+ const HandleOnClick =()=>{
+
  if (Auth== true) {
- <Redirect to="/camera"></Redirect>
+ <Redirect to="/camera"/>
  } {
   {window.location.replace("https://fireflynotifybeta.vercel.app")}
  }
+}
   return (
     
     <div className="App">
@@ -88,7 +91,7 @@ function LogIn() {
           <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>display name: </b> {displayName}</p>
           <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>status message: </b> {statusMessage}</p>
           <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>user id: </b> {userId}</p>
-          <Button onClick={linKer}>ไปต่อ</Button>
+          <Button onClick={HandleOnClick}>ไปต่อ</Button>
           </div>
       </div>
     </div>
