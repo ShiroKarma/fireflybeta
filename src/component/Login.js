@@ -63,12 +63,12 @@ function LogIn() {
   readCookies();
  }, [])
  const HandleOnClick =()=>{
-
- if (Auth == true) {
- <Redirect to="/camera"/>
- } {
-  {window.location.replace("https://fireflynotifybeta.vercel.app")}
- }
+console.log(Auth)
+//  if (Auth == true) {
+//  <Redirect to="/camera"/>
+//  } {
+//   {window.location.replace("https://fireflynotifybeta.vercel.app")}
+//  }
 }
   return (
     
