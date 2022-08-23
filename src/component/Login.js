@@ -66,7 +66,7 @@ function LogIn() {
 console.log(Auth)
 if (Auth == true) {
 <Link to="/camera"/>
-} {
+} else {
 {window.location.replace("https://fireflynotifybeta.vercel.app")}
 }
 }
