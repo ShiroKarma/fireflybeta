@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import './ContentCSS.css'
 import logo from '../../logo.svg'
 import { Link, Redirect, useHistory } from 'react-router-dom';
+import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import Cookies from 'js-cookie';
 function Register() {
   const navigate = useHistory();
@@ -107,7 +108,7 @@ function Register() {
       <form className='row d-flex flex-row justify-content-center' onSubmit={suemit}>
         <input value={Name} onChange={(e) => setName(e.target.value)} type="text" class="form-control m-2" placeholder="Full Name" id='inputFieldFormat' />
         <input value={diplay} onChange={(e) => setDiplay(e.target.value)} type="text" class="form-control mb-2" placeholder="Username" id='inputFieldFormat' />
-        <input value={linetk} onChange={(e) => setLinetk(e.target.value)} type="text" class="form-control mb-2" placeholder="Line Token" id='inputFieldFormat' />
+        <input value={linetk} onChange={(e) => setLinetk(e.target.value)} type="text" class="form-control mb-2" placeholder="Line Token" id='inputFieldFormat'><p style={textAlign= "right"}>{AiOutlineQuestionCircle}</p></input>
         <input value={House} onChange={(e) => setHouse(e.target.value)} type="text" class="form-control mb-2" placeholder="Location" id='inputFieldFormat' />
         <input value={phone} onChange={(e) => setphone(e.target.value)} type="text" class="form-control mb-2" placeholder="Phone Number" id='inputFieldFormat' />
         <input value={hotmail} onChange={(e) => setHotmail(e.target.value)} type="text" class="form-control mb-2" placeholder="Email" id='inputFieldFormat' />
