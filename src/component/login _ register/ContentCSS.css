@@ -6,7 +6,10 @@ body {
     background-position-y: top;
     background-size: 100% auto;
 }
-
+.question {
+    text-align: right;
+    margin: 0 auto;
+}
 
 #Login {
     text-align: center;
