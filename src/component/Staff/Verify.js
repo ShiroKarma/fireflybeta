@@ -31,8 +31,9 @@ function Verify() {
     });
   }
   return (
+    <div>
+    <h4 className='Vari'>Verify <IoMailUnreadOutline /></h4>
     <div className="FootBox">
-      <h4 className='Vari'>Verify <IoMailUnreadOutline /></h4>
       {todos.map((todo) => (
         <Test
           todo={todo.todo}
@@ -48,6 +49,7 @@ function Verify() {
           percentfire = {todo.percentfire}
         />
       ))}
+    </div>
     </div>
   );
 }
