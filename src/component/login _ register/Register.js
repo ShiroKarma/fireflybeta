@@ -93,7 +93,7 @@ function Register() {
         {/* <div className='row d-flex flex-row justify-content-center'> 
                 Welcome To
             </div> */}
-        <div className='row d-flex flex-row justify-content-center pb-2' style={{ fontSize: '280%', color: '#EF6F6F' }} >
+        <div className='row d-flex flex-row justify-content-center pb-2' style={{ fontSize: '280%', color: '#fdcd69' }} >
           Register
         </div>
         {/* <div className='row d-flex flex-row justify-content-center'> 
