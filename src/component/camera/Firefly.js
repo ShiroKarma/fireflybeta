@@ -80,7 +80,7 @@ const clearFiles =(e) =>{
         })
         .then(()=>{
           alert('Success!!');
-          <Link to ="/form"/>
+          {window.location.replace("https://fireflybeta.vercel.app/form")}
        })
        
       } else { alert('กรุณาเลือกประเภทการเผาที่เกิดขึ้น')}
