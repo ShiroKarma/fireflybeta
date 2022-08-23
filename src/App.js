@@ -16,7 +16,7 @@ export default function App() {
       <Header />
       <Switch>
         <Route path='/' exact>
-          <LocationSearchModal/>
+          <LogIn/>
         </Route>
         <Route path='/register'>
           <Register/>
