@@ -75,7 +75,7 @@ if (Auth == true) {
     <div className="App">
       <header className="App-header">
         <div style={{ textAlign: "center" }}>
-          <h3 style={{ color: "black" }}>Welcome to Firefly ,<l1>{displayName}</l1></h3>
+          <h3 style={{ color: "gold" }}>Welcome to Firefly ,<l1>{displayName}</l1></h3>
           <hr />
     <div className="bg">
       <div className="Card">
