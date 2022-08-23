@@ -80,7 +80,7 @@ function Register() {
       setPasssword("");
       setBetapasss("");
       setDiplay("");
-      Cookies.set("user","true")
+      Cookies.set("userCookies","true")
     } else {
       alert('falied to compile')
       alert('Your password did not match')

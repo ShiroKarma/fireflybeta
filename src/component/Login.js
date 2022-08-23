@@ -54,7 +54,7 @@ function LogIn() {
     initLine();
   }, []);
  const readCookies = () => {
-  const StatusCookies = Cookies.get("user")
+  const StatusCookies = Cookies.get("userCookies")
   if (StatusCookies != ""){
     setAuth(true)
   }
