@@ -21,7 +21,7 @@ body {
   }
   .upper-container {
     height: 100px;
-    background: url("./CardContent.jpg");
+    background: url("./Card.jpg");
     object-fit: cover;
     
    
