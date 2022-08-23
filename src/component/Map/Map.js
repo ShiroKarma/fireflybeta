@@ -203,7 +203,7 @@ class LocationSearchModal extends React.Component {
         Place: this.state.address,
         Details: this.state.detailsFire,
         Location: ["" + this.state.markerPosition.lat + "", "" + this.state.markerPosition.lng + ""],
-        Status: 2,
+        Status: 1,
         inprogress: true,
       });
       alert("Success")
