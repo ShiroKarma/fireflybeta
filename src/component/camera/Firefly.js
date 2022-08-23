@@ -73,7 +73,6 @@ const clearFiles =(e) =>{
       if (choice != "") {
         db.collection('history').doc(userId).set({
           Fire_image: data,
-          Ai_Status: 1,
           type: choice,
           reporter_id :userId,
           Time: Date().toLocaleString()
