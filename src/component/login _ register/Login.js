@@ -16,11 +16,11 @@ function LoginT() {
           </div>
           
           
-          <div id='headText' style={{marginTop: '-10%'}}>
+          <div id='headText' style={{marginTop: '-10%',color:'gold'}}>
             {/* <div className='row d-flex flex-row justify-content-center'> 
                 Welcome To
             </div> */}
-            <div className='row d-flex flex-row justify-content-center pb-2' style={{fontSize: 'xx-large'}}> 
+            <div className='row d-flex flex-row justify-content-center pb-2' style={{fontSize: 'xx-large',color:'gold'}}> 
                 Fire Fly
             </div>
             {/* <div className='row d-flex flex-row justify-content-center'> 
