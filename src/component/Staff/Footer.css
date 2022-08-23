@@ -1,20 +1,20 @@
 .FootBox {
     width: 90%;
-    max-width: 1000vh;
-    margin: 0 auto;
+    max-width: 200vh;
+    margin: auto;
     display: flex;
     align-items: bottom;
     justify-content: bottom;
-    background-color: aliceblue;
+    background-color: rgb(255, 236, 177);
     margin-top: 50px;
     padding-bottom: 80vh;
     border-radius: 25px;
     opacity: 100%;
 }
 .Vari {
-    text-align: center;
-    justify-content: center;
+    text-align: auto;
+    justify-content: auto;
     margin-left: 135px;
-    color: rgb(238, 0, 0);
+    color: rgb(238, 127, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

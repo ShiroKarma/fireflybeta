@@ -31,19 +31,19 @@ export default function Test({todo,special,inprogress,id,place,coordLat , coordL
             <br/>
             <table>
                 <tr onClick={getInfo}>
-                    <th style={{ width: '100%' }}>
+                    <th style={{ width: '1%' }}>
                         <ListItemText
                             primary={todo}
                             secondary={inprogress ? "In Progress" : "Completed"}
                         />
                     </th>
-                    <div style={{ width: '20%' }}>
+                    <div style={{ width: '1%' }}>
                         <Button onClick={deleteTodo}> X </Button>
                     </div>
                 </tr>
                     <tr style={{visibility: open}}>
                         <td >
-                            <h5 style={{ marginLeft: '10%' ,color:"black"}}> สถานที่: <h6>{place}</h6> </h5>
+                            <h5 style={{ marginLeft: '1%' ,color:"black"}}> สถานที่: <h6>{place}</h6> </h5>
                         </td>
                         {/*<td>
                             <h6 style={{ marginLeft: '-700%' ,color:"black"}}> {place} </h6>
@@ -51,19 +51,19 @@ export default function Test({todo,special,inprogress,id,place,coordLat , coordL
                     </tr>
                     <tr style={{visibility: open}}>
                         <td >
-                            <h5 style={{ marginLeft: '10%' ,color:"black"}}> Firepercent:{percentfire} </h5>
+                            <h5 style={{ marginLeft: '1%' ,color:"black"}}> Firepercent:{percentfire} </h5>
                         </td>
                         <td>
-                            <h6 style={{ marginLeft: '-90%' ,color:"black"}}> {reporttime} </h6>
+                            <h6 style={{ marginLeft: '1%' ,color:"black"}}> {reporttime} </h6>
                         </td>
                     </tr>
                     <tr style={{visibility: open}}>
-                        <h5 style={{ marginLeft: '10%' ,color:"black"}}> Location </h5>
+                        <h5 style={{ marginLeft: '1%' ,color:"black"}}> Location </h5>
                     </tr>
                     <tr style={{visibility: open}}>
                         <td>
-                            <p style={{ marginLeft: '20%',color:"black" }}> {'>'} ละติจูด : {coordLat}</p>
-                            <p style={{ marginLeft: '20%', marginTop: '0%' ,color:"black"}}> {">"} ลองจิจูด: {coordLng}</p>
+                            <p style={{ marginLeft: '1%',color:"black" }}> {'>'} latitude : {coordLat}</p>
+                            <p style={{ marginLeft: '1%', marginTop: '0%' ,color:"black"}}> {">"} longitude: {coordLng}</p>
                         </td>
                     </tr>
                     <tr>
@@ -71,7 +71,7 @@ export default function Test({todo,special,inprogress,id,place,coordLat , coordL
                     </tr>
                     <th style={{visibility: open, width: '30%' }}>
                         <Button onClick={toggleInProgress} >
-                            {inprogress ? "ยืนยัน" : "ยกเลิก"}
+                            {inprogress ? "Comfirm" : "Cancel"}
                         </Button>
                     </th>
                 
