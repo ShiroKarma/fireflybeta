@@ -19,6 +19,7 @@ body {
     border-radius: 10px;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
     border-color: darkgoldenrod;
+    border: 5px;
   }
   .upper-container {
     height: 100px;
