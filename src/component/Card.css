@@ -15,9 +15,10 @@ body {
   .Card {
     width: 300px;
     height: 400px;
-    background: white;
+    background: aliceblue;
     border-radius: 10px;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+    border-color: darkgoldenrod;
   }
   .upper-container {
     height: 100px;
@@ -37,7 +38,7 @@ body {
     
   }
   img {
-    border: 2px solid rgb(148, 0, 0);
+    border: 2px solid rgb(180, 171, 45);
     
   }
   .lower-container {
