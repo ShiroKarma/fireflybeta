@@ -6,7 +6,7 @@ import Verify from './Verify'
 
 function Path() {
     const adminUser = {
-        ClientID: 'admistator4142',
+        ClientID: 'BetaAdmin',
         Password: 'adminnothere'
     }
     const [user, setUser] = useState({ ID: "" })
