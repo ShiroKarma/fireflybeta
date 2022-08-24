@@ -22,12 +22,12 @@ class LocationSearchModal extends React.Component {
     zoom: 15,
     height: 400,
     mapPosition: {
-      lat: 0,
-      lng: 0,
+      lat: 13.7390154,
+      lng: 100.5481816,
     },
     markerPosition: {
-      lat: 0,
-      lng: 0,
+      lat: 13.7390154,
+      lng: 100.5481816,
     }
 
   }
